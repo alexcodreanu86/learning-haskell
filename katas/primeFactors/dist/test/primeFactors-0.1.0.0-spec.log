@@ -1,0 +1,19 @@
+Test suite spec: RUNNING...
+
+Data.PrimeFactors
+  primeFactors
+    returns [] for any number smaller than 2
+    returns [2] for 2
+    returns [3] for 3
+    returns [2,2] for 4
+    returns [3,3] for 4
+    returns [2,2,3] for 12
+    returns [2,3,3,3,5] for 270
+  isNumberDivizibleBy
+    returns false when numbers are NOT divizible
+    returns true when numbers are divizible
+
+Finished in 0.0003 seconds
+9 examples, 0 failures
+Test suite spec: PASS
+Test suite logged to: dist/test/primeFactors-0.1.0.0-spec.log

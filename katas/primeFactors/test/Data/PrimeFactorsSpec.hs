@@ -1,11 +1,13 @@
-module PrimeFactorsSpec where
+module Data.PrimeFactorsSpec where
 
 import Test.Hspec
-import PrimeFactors
+import Data.PrimeFactors
 
 main :: IO ()
 
-main = hspec $ do
+main = hspec spec
+spec :: Spec
+spec = do
   describe "primeFactors" $ do
     it "returns [] for any number smaller than 2" $
       primeFactors 1 `shouldBe` []

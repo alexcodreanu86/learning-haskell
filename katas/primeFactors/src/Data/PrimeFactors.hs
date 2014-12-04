@@ -1,4 +1,4 @@
-module PrimeFactors where
+module Data.PrimeFactors (primeFactors,isNumberDivizibleBy) where
 primeFactors :: Int -> [Int]
 primeFactors x = getFactorsListForNumber x 2 []
 
