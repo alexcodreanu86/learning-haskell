@@ -1,16 +1,7 @@
 Test suite spec: RUNNING...
 
-Data.Fizzbuzz
-  fizzbuzz
-    returns "1" for 1
-    returns "2" for 2
-    returns "fizz" for 3
-    returns "buzz" for 5
-    returs "fizz" for 9
-    returs "fizzbuzz" for 15
-    returns "buzz" for 25
 
-Finished in 0.0002 seconds
-7 examples, 0 failures
+Finished in 0.0000 seconds
+0 examples, 0 failures
 Test suite spec: PASS
 Test suite logged to: dist/test/fizzbuzz-0.1.0.0-spec.log
