@@ -1,0 +1,24 @@
+Test suite spec: RUNNING...
+
+Fizzbuzz
+  fizzbuzz
+    returns 1 for 1
+    returns 2 for 2
+    returns "fizz" for 3
+    returns "buzz" for 5
+    returns "fizz" for 6
+    returns "buzz" for 10
+    returns "fizzbuzz" for 15
+  isDivizibleBy
+    returns True for 6 and 2
+  isDivizibleByThree
+    returns True for 6
+    returns False for 5
+  isDivizibleByFive
+    returns False for 6
+    returns True for 5
+
+Finished in 0.0004 seconds
+12 examples, 0 failures
+Test suite spec: PASS
+Test suite logged to: dist/test/fizzbuzz-0.1.0.0-spec.log
